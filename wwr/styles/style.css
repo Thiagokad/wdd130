@@ -12,10 +12,18 @@
     margin: 0 auto;
     color: black;
     text-decoration: none;
+    padding: 35px;
+  }
+  nav a:hover {
+    background-color: gray; 
+    color: black;
   }
   #hero-msg h1, #hero-msg h4 {
     max-width: 1600px;
     margin: 0 auto;
+  }
+  #hero-img {
+    width: 100%;
   }
   .button-box {
     max-width: 1600px;
@@ -30,19 +38,22 @@
     background-color: #fcfbfb;
   }
   body {
-    background-color: #fcfbfb; 
+    background-color: #fcfbfb;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
   }
   header {
     background-color: #fcfbfb; 
-  }
-  nav a:hover {
-    background-color: gray; 
-    color: black;
   }
   .book, .join {
     background-color: #fcfbfb; 
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
   }
   .book:hover, .join:hover {
     background-color: gray; 
@@ -50,17 +61,8 @@
   }
   .msg {
     background-color: #fcfbfb; 
-  }
-  footer {
-    background-color: #fcfbfb; 
-    color: black;
-  }
-  .home-title {
-    color: black;
-    font-family: "Share Tech", arial;
-  }
-  h4 {
-    color: black;
+    line-height: 1.5em;
+    padding: 35px;
   }
   .msg h2 {
     color: black;
@@ -68,24 +70,63 @@
   }
   .msg p {
     color: black;
+    font-size: 8em;
+    padding-bottom: 15px;
+  }
+  .home-title {
+    color: black;
+    font-family: "Share Tech", arial;
+    font-size: 2em;
+    margin-top: 10px;
+  }
+  h4 {
+    color: black;
+  }
+  h2 {
+    margin: 0;
+  }
+  footer {
+    background-color: #fcfbfb; 
+    color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
+  }
+  footer {
+    background-color: #fcfbfb; 
+    color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
   }
   footer a {
     color: black;
     text-decoration: none;
   }
+  footer .social img {
+    padding-top: 15px;
+  }
   footer a:hover {
     color: black;
     text-decoration: underline;
   }
+  footer p {
+    font-size: 1.2em;
+  }
   .icon {
     width: 80px;
+    padding-top: 10px;
   }
   .logo {
     width: 80px;
   }
-  #hero-img {
-    width: 100%;
+  #logo_link {
+    padding-top: 5px;
   }
-  footer p {
-    font-size: 1.2em;
-  }    
+  .rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+  }
+  .card-img {
+    border: 10px solid black;
+  }
+  main section img {
+    box-sizing: border-box;
+}
